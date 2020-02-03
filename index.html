@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Roboto:400,700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body class="body-bg">
+        <div class="main-container">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h3 class="text-center">
+                            Weight Loss Calculator
+                        </h3>
+                    </div>
+                </div>
+                <div class="row justify-content-center" id="formContainer">
+                    
+                        <div class="col-12 col-md-6 col-lg-6  input-container">
+                            <input type="number" class="form-control" min="0" name="currentWeight" id="currentWeight" placeholder="Current Weight">
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-6  input-container">
+                            <input type="number" class="form-control" min="0" name="goalWeight" id="goalWeight" placeholder="Goal Weight">
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-6  input-container">
+                            <select name="gender" class="form-control" id="gender">
+                                <option value="" SELECTED DISABLED>Please Select a Gender</option>
+                                <option value="1">Male</option>
+                                <option value="2">Female</option>
+                            </select>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-6  input-container">
+                            <input type="number" class="form-control" min="0" name="consumed" id="consumed" placeholder="Daily Calories Eaten">
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-6 input-container">
+                            <input type="number" class="form-control" min="0" name="exercise" id="exercise" placeholder="Daily Calories Burned">
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-6 input-container">
+                            <select name="exerciseDays" class="form-control" id="exerciseDays">
+                                <option value="" SELECTED DISABLED>Days of Exercise</option>
+                                <option value="1">One</option>
+                                <option value="2">Two</option>
+                                <option value="3">Three</option>
+                                <option value="4">Four</option>
+                                <option value="5">Five</option>
+                                <option value="6">Six</option>
+                                <option value="7">Seven</option>
+                            </select>
+                        </div>
+                        <div class="col-12 input-container text-center">
+                            <button type="button" id="submitBtn" DISABLED class="btn btn-primary">
+                                Calculate
+                            </button>
+                            <button type="button" id="resetBtn" class="btn btn-warning reset-btn">
+                                Reset
+                            </button>
+                        </div>
+                    
+                </div>
+            </div>
+        </div>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <script src="scripts.js"></script>
+    </body>
+</html>

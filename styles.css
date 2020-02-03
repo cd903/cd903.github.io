@@ -1,7 +1,7 @@
 .main-container {
     background-color: #fff;
     border-radius: .25em;
-    box-shadow: 2px 2px 2px 1px rgba(0,0,0,0.5);
+    box-shadow: 10px 5px 15px 1px rgba(0,0,0,0.5);
     max-width: 1200px;
     margin:auto;
 }
